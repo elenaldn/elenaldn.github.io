@@ -1,0 +1,67 @@
+body {
+  background-color: purple;
+  background-image: url(../images/beach.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.main {
+  max-width: 600px;
+  background: rgba(255,255,255,0.7);
+  margin: 0 auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 50px, 20px, 20px, 20px blue;
+
+}
+
+h1 {
+    background-color: orange;
+    text-align: centre;
+    font-size: 25px;
+    margin: auto;
+    text-shadow: 5px, 5px, 10px blue;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    margin: 0
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: normal;
+}
+img {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  border: 40px solid orange;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+p,
+ul,
+ol {
+    line-height: 1.5;
+    list-style: none; 
+    padding-left: 0;
+}
+
+a {
+  color: yellow;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  colour: #99ffaa;
+  text-decoration: underline;
+}
+
+}
